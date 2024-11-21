@@ -90,10 +90,10 @@ To run this project locally or deploy it to AWS, you'll need:
     }
     ```
 
-- **GET /redirect/{uuid}**: Redirects the user to the original URL based on the provided UUID.
+- **GET /{uuid}**: Redirects the user to the original URL based on the provided UUID.
   - Example Request:
     ```http
-    GET /redirect/abc123
+    GET /abc123
     ```
   - Example Response:
     Redirects to the original URL (`https://example.com`).
