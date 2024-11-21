@@ -52,8 +52,8 @@ To run this project locally or deploy it to AWS, you'll need:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/raphaelsrcunha/shortener-url.git
-   cd shortener-url
+   git clone https://github.com/raphaelsrcunha/url-shortener.git
+   cd url-shortener
    ```
 
 2. **Build the Project**:
@@ -71,7 +71,7 @@ To run this project locally or deploy it to AWS, you'll need:
 5. **API Gateway Configuration**:
    Create an API in Amazon API Gateway to handle incoming requests. Configure two endpoints:
    - `/create`: For creating a shortened URL.
-   - `/redirect/{uuid}`: For redirecting to the original URL based on the shortened UUID.
+   - `/{uuid}`: For redirecting to the original URL based on the shortened UUID.
 
 ### API Endpoints
 
