@@ -1,6 +1,6 @@
-# Shortener-URL
+# URL Shortener
 
-Shortener-URL is a simple and scalable URL shortening service that utilizes Java, Spring, AWS Lambda, AWS S3, and Amazon API Gateway. The service allows users to shorten URLs and then redirect them when accessed using the shortened version.
+URL Shortener is a simple and scalable URL shortening service that utilizes Java, Spring, AWS Lambda, AWS S3, and Amazon API Gateway. The service allows users to shorten URLs and then redirect them when accessed using the shortened version.
 
 ## Architecture Overview
 
